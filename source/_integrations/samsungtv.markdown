@@ -122,6 +122,7 @@ Currently tested but not working models:
 - Q60 – turning on works, turning off does not work, State is always "off".
 - Q6F – Port set to 8001, turning on works, turning off does not work, status not working reliably.
 - Q7F - State is always "off" and unable to control via port 8001.
+- UE43LS003 (HA see the state ON/OFF, no other controls work in HA. Can be turned on to last used input with MAC address added to configuration.yaml using "media_player.turn_on")
 
 None of the 2014 (H) and 2015 (J) model series (e.g., J5200) will work, since Samsung have used a different (encrypted) type of interface for these.
 
