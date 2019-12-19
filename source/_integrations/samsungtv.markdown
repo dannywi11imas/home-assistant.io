@@ -102,6 +102,7 @@ Currently known supported models:
 - UE65KS8005 (port must be set to 8001, On/Off, Forward/Backward, Volume are OK, but no Play button)
 - UE49KU6470 (port must be set to 8001, On/Off, Forward/Backward, Volume are OK, but no Play button)
 - UE46ES5500 (partially supported, turn on doesn't works)
+- UE43LS003 (HA see the state ON/OFF, no other controls work in HA. Can be turned on to last used input with MAC address added to configuration.yaml using "media_player.turn_on")
 
 Currently tested but not working models:
 
